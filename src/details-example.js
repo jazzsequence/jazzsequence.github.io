@@ -52,4 +52,9 @@ const details = {
 	colorScheme
 }
 
+// Export each detail individually in case they are needed.
+export { profile };
+export { colorScheme };
+export { links };
+
 export default details;
