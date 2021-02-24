@@ -8,27 +8,34 @@ const links = [
 	{
 		name: "Personal Site",
 		url: "https://yoursite.com",
-		icon: "link"
+		icon: "link",
+		// Refer to FontAwesome documentation to determine if an icon should be a fas or fab. (Brands are fab, so most will be fab.)
+		// https://fontawesome.com/icons?d=gallery&p=2&m=free
+		prefix: "fas"
 	},
 	{
 		name: "Twitter",
 		url: "https://twitter.com/yourusername",
-		icon: "twitter"
+		icon: "twitter",
+		prefix: "fab"
 	},
 	{
 		name: "Facebook",
 		url: "https://facebook.com/yourusername",
-		icon: "facebook"
+		icon: "facebook",
+		prefix: "fab"
 	},
 	{
 		name: "YouTube",
 		url: "https://youtube.com/yourchannel",
-		icon: "youtube"
+		icon: "youtube",
+		prefix: "fab"
 	},
 	{
 		name: "GitHub",
 		url: "https://github.com/yourusername",
-		icon: "github"
+		icon: "github",
+		prefix: "fab"
 	}
 ];
 
