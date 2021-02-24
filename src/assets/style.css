@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Palanquin:100&display=swap");
 html .solarized {
   background-color: #002b36;
   color: #839496; }
@@ -22,7 +23,41 @@ html .solarized-light {
 
 html * {
   color-profile: sRGB;
-  rendering-intent: auto; }
-  html * .wrap {
-    margin: -8px;
-    padding: 10px; }
+  rendering-intent: auto;
+  font-family: "Palanquin", "Open Sans", sans-serif; }
+
+.wrap {
+  margin: -8px;
+  padding: 10px;
+  height: 100vh;
+  font-size: 1.1rem;
+  text-align: center; }
+  .wrap header {
+    margin: 40px auto; }
+    .wrap header img {
+      width: 200px;
+      border-radius: 50%;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8); }
+    .wrap header .header--name h1 {
+      margin: 0;
+      color: #eee8d5; }
+    .wrap header .header--pronouns {
+      font-style: italic; }
+    .wrap header .header--bio {
+      color: #93a1a1; }
+  .wrap .links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .wrap .links--single span {
+      margin-right: 10px; }
+    .wrap .links--single a,
+    .wrap .links--single a:visited {
+      text-decoration: none;
+      border-bottom: 1px dotted #839496;
+      color: #268bd2; }
+      .wrap .links--single a:hover, .wrap .links--single a:active,
+      .wrap .links--single a:visited:hover,
+      .wrap .links--single a:visited:active {
+        border-bottom: 1px transparent;
+        color: #eee8d5; }
