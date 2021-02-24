@@ -11,7 +11,8 @@ class Links extends React.Component {
 					key++;
 					return (
 						<li key={ key } className="links--single">
-							<a href={ link.url }><span className={ `${ link.prefix } fa-${ link.icon }` }></span> { link.name }</a>
+							<span className={ `${ link.prefix } fa-${ link.icon }` }></span>
+							<a href={ link.url }>{ link.name }</a>
 						</li>
 					)
 					} )
