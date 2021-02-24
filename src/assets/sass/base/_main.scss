@@ -1,0 +1,9 @@
+html * {
+    color-profile: sRGB;
+    rendering-intent: auto;
+
+	.wrap {
+		margin: -8px; // Offset default margins.
+		padding: 10px;
+	}
+}
