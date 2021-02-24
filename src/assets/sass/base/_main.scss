@@ -23,15 +23,10 @@ html * {
 		.header {
 			&--name h1 {
 				margin: 0;
-				color: $base2;
 			}
 
 			&--pronouns {
 				font-style: italic;
-			}
-
-			&--bio {
-				color: $base1;
 			}
 		}
 	}
@@ -49,18 +44,13 @@ html * {
 			a,
 			a:visited {
 				text-decoration: none;
-				border-bottom: 1px dotted $base0;
-				color: $blue;
+				border-bottom: 1px dotted;
 
 				&:hover,
 				&:active {
 					border-bottom: 1px transparent;
-					color: $base2;
 				}
 			}
 		}
 	}
-
-
-
 }
