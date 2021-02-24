@@ -2,14 +2,17 @@
   "name": "sapling-chain",
   "version": "1.0.0",
   "description": "Create a tree of hyperlinks that can be used in social media profiles. 🔗🌲😂",
+  "author": "Chris Reynolds <me@chrisreynolds.io>",
+  "license": "GPL-3.0-or-later",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jazzsequence/SaplingChain.git"
   },
+  "bugs": {
+    "url": "https://github.com/jazzsequence/SaplingChain/issues"
+  },
+  "homepage": "https://github.com/jazzsequence/SaplingChain#readme",
   "keywords": [
     "react",
     "links",
@@ -17,12 +20,16 @@
     "social",
     "media"
   ],
-  "author": "Chris Reynolds <me@chrisreynolds.io>",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/jazzsequence/SaplingChain/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently --prefix name \"npm run start\" \"npm run watch\"",
+    "start": "react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "build:css": "gulp build",
+    "watch": "gulp watch"
   },
-  "homepage": "https://github.com/jazzsequence/SaplingChain#readme",
   "dependencies": {
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
