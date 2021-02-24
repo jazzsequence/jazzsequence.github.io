@@ -1,0 +1,39 @@
+{
+  "name": "sapling-chain",
+  "version": "1.0.0",
+  "description": "Create a tree of hyperlinks that can be used in social media profiles. 🔗🌲😂",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazzsequence/SaplingChain.git"
+  },
+  "keywords": [
+    "react",
+    "links",
+    "profile",
+    "social",
+    "media"
+  ],
+  "author": "Chris Reynolds <me@chrisreynolds.io>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jazzsequence/SaplingChain/issues"
+  },
+  "homepage": "https://github.com/jazzsequence/SaplingChain#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0",
+    "react-scripts": "^4.0.3"
+  }
+}
