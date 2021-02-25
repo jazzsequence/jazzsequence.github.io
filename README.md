@@ -1,6 +1,6 @@
 # `YourProfile.github.io`
 
-Create a personal profile page with all your various links and publish it quickly and easily to [yourusername].github.io!
+Create a personal profile page with all your various links and publish it quickly to [yourusername].github.io!
 
 Check out [mine](https://jazzsequence.github.io) for a demo!
 
@@ -12,7 +12,7 @@ But, I'm a web developer and at the end of the day, those sorts of services are 
 
 ## How does it work?
 
-It's pretty simple. All you need to do is fork this repository into your own GitHub with the name `{yourGitHubUsername}.github.io`, clone it to your local machine, add your details to a simple JavaScript file and then run `npm run deploy` to deploy to that URL. It will automatically turn on GitHub pages and live at the URL of the repository (assuming you used _your_ actual GitHub username).
+It's all relatively uncomplicated. All you need to do is fork this repository into your own GitHub with the name `{yourGitHubUsername}.github.io`, clone it to your local machine, add your details to a minimalist JavaScript file and then run `npm run deploy` to deploy to that URL. It will automatically turn on GitHub pages and live at the URL of the repository (assuming you used _your_ actual GitHub username).
 
 You can have as many links as you want and each one can be accompanied by an icon (provided by [FontAwesome](https://fontawesome.com/)). There are two built-in themes based on Ethan Schoonover's popular [Solarized](https://ethanschoonover.com/solarized/) color schemes, but folks who are fancy with CSS can build their own color schemes or themes. (And please do! [Contributions are welcome!](https://github.com/jazzsequence/jazzsequence.github.io/pulls))
 
