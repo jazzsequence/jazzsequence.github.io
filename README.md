@@ -1,4 +1,4 @@
-# YourProfile.GitHub.io
+# `YourProfile.github.io`
 
 Create a personal profile page with all your various links and publish it quickly and easily to [yourusername].github.io!
 
