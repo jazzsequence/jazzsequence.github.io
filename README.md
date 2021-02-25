@@ -2,6 +2,8 @@
 
 Create a personal profile page with all your various links and publish it quickly and easily to [yourusername].github.io!
 
+Check out [mine](https://jazzsequence.github.io) for a demo!
+
 ## What is this?
 
 I have a lot of interests and social media profiles. One thing I see a lot of on social media is people using `linktr.ee` to share their various links on their profile pages that only allow a single link. I've even thought of making a profile there myself.
