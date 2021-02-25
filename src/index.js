@@ -11,5 +11,5 @@ render(
 
 render(
 	<App />,
-	document.querySelector( 'body' )
+	document.querySelector( '#main' )
 );
