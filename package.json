@@ -5,6 +5,7 @@
   "author": "Chris Reynolds <me@chrisreynolds.io>",
   "license": "GPL-3.0-or-later",
   "main": "index.js",
+  "homepage": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jazzsequence/SaplingChain.git"
