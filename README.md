@@ -47,6 +47,10 @@ Color schemes are attached to a class that is added to the main `div` that wraps
 ### Deploying your new profile!
 First things first, you'll need to run `npm install` to install the various Node dependencies. Some of these are for local development which, if you don't plan on making changes to the code, you won't be using, but you might if you do decide to make any custom tweaks.
 
+Before you deploy, you'll need to add a line to the `package.json` file. This is simply going to tell GitHub that it should look at your compiled app rather than your readme (which is what it does by default). Find the `"homepage"` line in the `package.json` and in the empty string (`""`), enter in the full URL to where your profile page will live (`https://{yourusername}.github.io`, for example, the full line in my compiled `package.json` file would be: `"homepage": "https://jazzsequence.github.io"`).
+
 Once NPM is done installing all the things, you will run `npm run deploy`. This will automatically compile all the JavaScript and CSS, copy a version of the `index.html` in the `public/` folder adding the JavaScript and compiled CSS links into it and copy all those things into a `build/` folder (which is also `.gitignore`d). It will then use the [`gh-pages`](https://www.npmjs.com/package/gh-pages) library to push the build folder to a `gh-pages` branch (which it creates) on your forked version of your repository.
+
+Then, on GitHub, go to your repository's Settings page. Scroll down to the GitHub Pages section and make sure to choose the `gh-pages` branch if it's not already selected. Then click the Save button.
 
 Assuming you've renamed your fork using your username, you should immediately be able to just go to `yourusername.github.io` to see your fancy new profile page.
