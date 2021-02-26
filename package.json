@@ -8,10 +8,10 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jazzsequence/SaplingChain.git"
+    "url": "git+https://github.com/jazzsequence/jazzsequence.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/jazzsequence/SaplingChain/issues"
+    "url": "https://github.com/jazzsequence/jazzsequence.github.io/issues"
   },
   "keywords": [
     "react",
