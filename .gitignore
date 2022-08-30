@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled build
+build
+
+# Dependency directories
+node_modules/
+
+# Don't version control the actual user links.
+# src/details.js

@@ -1,0 +1,26 @@
+html .solarized {
+	@include rebase($base03,$base02,$base01,$base00,$base0,$base1,$base2,$base3);
+
+	.header {
+		&--name h1 {
+			color: $base2;
+		}
+
+		&--bio {
+			color: $base1;
+		}
+	}
+
+	.links {
+		&--single a,
+		&--single a:visited {
+			border-color: $base0;
+			color: $blue;
+		}
+
+		&:hover,
+		&:active {
+			color: $base2;
+		}
+	}
+}
