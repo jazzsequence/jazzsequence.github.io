@@ -61,6 +61,16 @@ html * {
   font-family: "Palanquin", "Open Sans", sans-serif;
 }
 
+body a.fork-me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}
+
 .wrap {
   margin: -8px;
   padding: 10px;

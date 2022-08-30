@@ -4,6 +4,19 @@ html * {
 	font-family: $body;
 }
 
+body
+ {
+	a.fork-me {
+		position: absolute;
+		top: 0;
+		right: 0;
+		border: 0;
+		width: 100px;
+		height: 100px;
+		z-index: 1;
+	}
+ }
+
 .wrap {
 	margin: -8px; // Offset default margins.
 	padding: 10px;
