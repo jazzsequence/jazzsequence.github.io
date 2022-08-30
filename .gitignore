@@ -10,4 +10,4 @@ build
 node_modules/
 
 # Don't version control the actual user links.
-src/details.js
+# src/details.js
