@@ -12,4 +12,4 @@ But, I'm a web developer and at the end of the day, those sorts of services are 
 
 ## How does it work?
 
-Read the [README](https://github.com/jazzsequence/profile.github.io#how-does-it-work)
+Read the [README](https://github.com/jazzsequence/profile.github.io#how-does-it-work)!
