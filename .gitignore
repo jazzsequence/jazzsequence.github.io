@@ -9,5 +9,8 @@ build
 # Dependency directories
 node_modules/
 
+# Don't version control the package-lock.json
+package-lock.json
+
 # Don't version control the actual user links.
 # src/details.js
