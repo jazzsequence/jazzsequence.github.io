@@ -27,6 +27,7 @@ The `links` variable stores an array all of your links. You can have as many lin
 * **`name`** is simply the name of the link, or, what you want the hypertext to say.
 * **`url`** is the full URL to the destination you want the link to take you to.
 * **`icon`** is the icon to display next to the link. Icons are served by FontAwesome and there are icons for most things. Find the icon you want by [searching their icon database](https://fontawesome.com/icons?d=gallery&p=2&m=free) and plug in the name here. (**Note:** If you're already familiar with FontAwesome, you'll want to use _just_ the name here, without the `fa-` prefix -- that's added in later in the code.)
+* **`rel`** is a way to indicate a link relationship. Some protocols -- notably Mastodon -- require link `rel` tags to verify your identity. The details example file adds `rel: "me"` to every entry, but you only need to add it to the ones you care about. The `rel` tag is added if a `rel` value exists and omitted if it does not.
 * **`style`** is a bit of a unique FontAwesome thing. Basically, for their free icon library, FontAwesome has two "styles" -- one is their basic styles for various things, which is `fas`; the other style is for "brands" (Twitter, Facebook, YouTube, etc. are all considered "brands") and the prefix for those is `fab`. Using the search, you can click into the icon to find out if it's a `fas` or a `fab`, but most likely if your links are mostly to other social networks or sites, you'll be using a lot of fab `fab`s.
 
 #### `profile`
@@ -43,6 +44,9 @@ This is the "theme" or style for the site. This variable is a single string valu
 I've built two color schemes -- `solarized` and `solarized-light` which can be used here, but savvy designer types can take a look at how the Sass files are architected and add their own. Your `colorScheme` must be either `solarized` or `solarized-light` or a custom scheme that you create.
 
 Color schemes are attached to a class that is added to the main `div` that wraps around the page, so to create your own scheme, simply put all your colors and styles into a single class and add that to the `details.js`.
+
+### Local Development
+You can build and test your profile locally by running an `npm install` and then using the `npm run dev` script. That will open a new browser window that live-updates when you make changes to the source code. Use `Command + X`/`Control + X` to stop the script from running when  you're done developing.
 
 ### Deploying your new profile!
 First things first, you'll need to run `npm install` to install the various Node dependencies. Some of these are for local development which, if you don't plan on making changes to the code, you won't be using, but you might if you do decide to make any custom tweaks.
