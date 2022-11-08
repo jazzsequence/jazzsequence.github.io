@@ -37,15 +37,22 @@ const links = [
 		prefix: "fas"
 	},
 	{
-		name: "Twitter",
-		url: "https://twitter.com/jazzs3quene",
-		icon: "twitter",
-		prefix: "fab"
+		name: "Mastodon",
+		url: "https://mstdn.social/@jazzsequence",
+		icon: "mastodon",
+		prefix: "fab",
+		rel: "me"
 	},
 	{
 		name: "Instagram",
 		url: "https://instagram.com/jazzs3quence",
 		icon: "instagram",
+		prefix: "fab"
+	},
+	{
+		name: "Twitter",
+		url: "https://twitter.com/jazzs3quene",
+		icon: "twitter",
 		prefix: "fab"
 	},
 	{
@@ -101,7 +108,7 @@ const links = [
 // Your personal information.
 const profile = {
 	name: "Chris Reynolds",
-	pronouns: "he/him", // Your pronouns.
+	pronouns: "he/they", // Your pronouns.
 	bio: "Web Software Engineer, Dungeon Master, occasional musician, weekend DJ and writer.",
 	image: "https://www.dropbox.com/s/0ux2c09lske2wmq/chris-hiking-square-2021-low-res.jpg?raw=1"
 };
