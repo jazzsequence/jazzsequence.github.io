@@ -11,31 +11,36 @@ const links = [
 		icon: "link",
 		// Refer to FontAwesome documentation to determine if an icon should be a fas or fab. (Brands are fab, so most will be fab.)
 		// https://fontawesome.com/icons?d=gallery&p=2&m=free
-		prefix: "fas"
+		prefix: "fas",
+		rel: "me"
 	},
 	{
 		name: "Twitter",
 		url: "https://twitter.com/yourusername",
 		icon: "twitter",
-		prefix: "fab"
+		prefix: "fab",
+		rel: "me"
 	},
 	{
 		name: "Facebook",
 		url: "https://facebook.com/yourusername",
 		icon: "facebook",
-		prefix: "fab"
+		prefix: "fab",
+		rel: "me"
 	},
 	{
 		name: "YouTube",
 		url: "https://youtube.com/yourchannel",
 		icon: "youtube",
-		prefix: "fab"
+		prefix: "fab",
+		rel: "me"
 	},
 	{
 		name: "GitHub",
 		url: "https://github.com/yourusername",
 		icon: "github",
-		prefix: "fab"
+		prefix: "fab",
+		rel: "me"
 	}
 ];
 

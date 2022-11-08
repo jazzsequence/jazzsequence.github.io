@@ -1,6 +1,6 @@
 {
   "name": "sapling-chain",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create a tree of hyperlinks that can be used in social media profiles. 🔗🌲😂",
   "author": "Chris Reynolds <me@chrisreynolds.io>",
   "license": "GPL-3.0-or-later",
@@ -31,14 +31,14 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "gh-pages": "^3.1",
-    "react": "^17.0",
-    "react-dom": "^17.0",
-    "sass": "^1.54.6"
+    "gh-pages": "^4.0",
+    "react": "^18.0",
+    "react-dom": "^18.0",
+    "sass": "^1.56"
   },
   "devDependencies": {
-    "concurrently": "^6.0",
-    "del": "^6.0",
+    "concurrently": "^7.0",
+    "del": "^7.0",
     "gulp": "^4.0",
     "gulp-sass": "^5.1.0",
     "node-sass": "^7.0",
