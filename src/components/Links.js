@@ -9,12 +9,21 @@ class Links extends React.Component {
 			Object.values( links )
 				.map( link => {
 					key++;
-					return (
+					let link;
+
+					if ( link.rel !== undefined ) {
+						link = <a href={ link.url } rel={link.rel}>{ link.name }</a>
+					} else {
+						link = <a href={ link.url }>{ link.name }</a>
+					};
+					let output = (
 						<li key={ key } className="links--single">
 							<span className={ `${ link.prefix } fa-${ link.icon }` }></span>
-							<a href={ link.url }>{ link.name }</a>
+							${ link }
 						</li>
-					)
+
+					);
+					return output;
 					} )
 		)
 	}
