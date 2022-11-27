@@ -50,6 +50,12 @@ const links = [
 		prefix: "fab"
 	},
 	{
+		name: "Tumblr",
+		url: "https://jazzsequence.tumblr.com",
+		icon: "tumblr",
+		prefix: "fab"
+	},
+	{
 		name: "Twitter",
 		url: "https://twitter.com/jazzs3quene",
 		icon: "twitter",
