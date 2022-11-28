@@ -12,7 +12,7 @@ class Links extends React.Component {
 					let linkHtml;
 
 					if ( link.rel !== undefined ) {
-						linkHtml = <a href={ link.url } rel={ link.rel }>{ link.name }</a>
+						linkHtml = <a rel={ link.rel } href={ link.url }>{ link.name }</a>
 					} else {
 						linkHtml = <a href={ link.url }>{ link.name }</a>
 					};
