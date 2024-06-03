@@ -1,6 +1,8 @@
-const gulp = require( 'gulp' ),
-	sass = require( 'gulp-sass' )( require( 'sass' ) ),
-	del = require( 'del' );
+import gulp from 'gulp';
+import { deleteAsync } from 'del';
+import * as sassCompiler from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass( sassCompiler );
 
 gulp.task( 'styles', () => {
 	return gulp.src( 'src/assets/sass/**/*.scss' )
@@ -9,9 +11,7 @@ gulp.task( 'styles', () => {
 } );
 
 gulp.task( 'clean', () => {
-	return del( [
-		'src/assets/style.css',
-	] );
+	return deleteAsync('src/assets/style.css');
 } );
 
 gulp.task( 'build', gulp.series( [ 'clean', 'styles' ] ) );
