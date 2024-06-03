@@ -16,6 +16,10 @@ It's all relatively uncomplicated. All you need to do is fork this repository in
 
 You can have as many links as you want and each one can be accompanied by an icon (provided by [FontAwesome](https://fontawesome.com/)). There are two built-in themes based on Ethan Schoonover's popular [Solarized](https://ethanschoonover.com/solarized/) color schemes, but folks who are fancy with CSS can build their own color schemes or themes. (And please do! [Contributions are welcome!](https://github.com/jazzsequence/jazzsequence.github.io/pulls))
 
+### Requirements
+* [NodeJS](https://nodejs.org/en) (this project is foundationally based on Node 16. Other versions may not work. You might want to use [nvm](https://github.com/nvm-sh/nvm) to manage multiple Node versions)
+* Some kind of command-line tool. I like [Warp](https://www.warp.dev/) (for MacOS).
+
 ### Getting started
 The repository comes with a `details-example.js` file to get you started. Copy this into a `details.js` file where you will make your changes. You will probably want to commit this file to your repository, otherwise this file will only exist on your local machine and will not exist if you ever move machines, delete the local copy, etc.
 
