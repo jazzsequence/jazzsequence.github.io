@@ -108,6 +108,12 @@ const links = [
 		url: "https://github.com/jazzsequence",
 		icon: "github",
 		prefix: "fab"
+	},
+	{
+		name: "Brewfiles",
+		url: "https://www.brewfiles.com/brew/KLMTzN28kH3Ym4chgPvw/",
+		icon: "beer-mug-empty",
+		prefix: "fas"
 	}
 ];
 
