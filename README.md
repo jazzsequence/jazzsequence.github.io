@@ -19,6 +19,7 @@ You can have as many links as you want and each one can be accompanied by an ico
 ### Requirements
 * [NodeJS](https://nodejs.org/en) (this project is foundationally based on Node 16. Other versions may not work. You might want to use [nvm](https://github.com/nvm-sh/nvm) to manage multiple Node versions)
 * Some kind of command-line tool. I like [Warp](https://www.warp.dev/) (for MacOS).
+* [FontAwesome v5](https://fontawesome.com/v5/search) - While this isn't a _requirement_ in the sense that you need to install anything, the v5 / v6 syntax is different, so you'll want to make sure you're looking at _v5_ documentation when referencing icon names.
 
 ### Getting started
 The repository comes with a `details-example.js` file to get you started. Copy this into a `details.js` file where you will make your changes. You will probably want to commit this file to your repository, otherwise this file will only exist on your local machine and will not exist if you ever move machines, delete the local copy, etc.
