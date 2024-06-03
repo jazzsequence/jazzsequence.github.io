@@ -112,7 +112,7 @@ const links = [
 	{
 		name: "Brewfiles",
 		url: "https://www.brewfiles.com/brew/KLMTzN28kH3Ym4chgPvw/",
-		icon: "beer-mug-empty",
+		icon: "beer",
 		prefix: "fas"
 	}
 ];
