@@ -13,3 +13,10 @@ But, I'm a web developer and at the end of the day, those sorts of services are 
 ## How does it work?
 
 Read the [README](https://github.com/jazzsequence/profile.github.io#how-does-it-work)!
+
+## Making changes
+
+1. Make sure you have Node **16** installed and active. If using [nvm](https://github.com/nvm-sh/nvm), run `nvm use 16` to switch to Node 16.
+2. Assuming you already have a copy of the repository cloned, make your changes in `src/details.js`. You can test locally by running `npm run dev` or just build the changes with `npm run build`.
+3. Commit your changes and push to GitHub.
+4. Run `npm run deploy` to deploy your changes to GitHub Pages.
