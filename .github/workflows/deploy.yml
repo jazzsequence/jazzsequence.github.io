@@ -16,8 +16,10 @@ jobs:
         run: |
           if [ "${{ github.repository }}" = "jazzsequence/profile.github.io" ]; then
             echo "should_deploy=false" >> $GITHUB_ENV
+            echo "Actions running on parent repository. Deploy to GitHub pages will be skipped."
           else
             echo "should_deploy=true" >> $GITHUB_ENV
+            echo "Actions running on forked repository. Deploying to GitHub is enabled."
           fi
         env:
           GITHUB_OUTPUT: $GITHUB_ENV
