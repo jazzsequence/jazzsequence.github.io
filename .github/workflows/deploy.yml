@@ -24,6 +24,7 @@ jobs:
         env:
           GITHUB_OUTPUT: $GITHUB_OUTPUT
   deploy:
+    needs: precheck
     runs-on: ubuntu-latest
     if: needs.precheck.outputs.should_deploy == 'true'
     steps:
@@ -40,7 +41,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"        
+          git config --global user.name "github-actions[bot]"
       - name: Deploy to GitHub Pages
         env:
           CI: true
