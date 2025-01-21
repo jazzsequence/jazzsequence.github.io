@@ -37,6 +37,12 @@ const links = [
 		prefix: "fas"
 	},
 	{
+		name: "Bluesky",
+		url: "https://bsky.app/profile/jazzsequence.com",
+		icon: "bluesky",
+		prefix: "fab"
+	},
+	{
 		name: "Mastodon",
 		url: "https://mstdn.social/@jazzsequence",
 		icon: "mastodon",
