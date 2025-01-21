@@ -27,5 +27,8 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           CI: true
-        run: npm run deploy
+          GIT_USER: github-actions[bot] # Add user for gh-pages package
+          GITHUB_TOKEN: ${{ github.token }} # Authenticate with the token
+        run: npx gh-pages -d build --repo https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+  
         
