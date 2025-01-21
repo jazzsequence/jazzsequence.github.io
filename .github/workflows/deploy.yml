@@ -6,9 +6,23 @@ on:
 permissions:
   contents: write
 jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.check.outputs.should_deploy }}
+    steps:
+      - name: Check if this is the template
+        id: check
+        run: |
+          if [ "${{ github.repository }}" = "jazzsequence/profile.github.io" ]; then
+            echo "should_deploy=false" >> $GITHUB_ENV
+          else
+            echo "should_deploy=true" >> $GITHUB_ENV
+        env:
+          GITHUB_OUTPUT: $GITHUB_ENV
   deploy:
     runs-on: ubuntu-latest
-
+    if: needs.precheck.outputs.should_deploy == 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
