@@ -18,6 +18,7 @@ jobs:
             echo "should_deploy=false" >> $GITHUB_ENV
           else
             echo "should_deploy=true" >> $GITHUB_ENV
+          fi
         env:
           GITHUB_OUTPUT: $GITHUB_ENV
   deploy:
