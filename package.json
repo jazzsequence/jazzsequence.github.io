@@ -4,7 +4,6 @@
   "description": "Create a tree of hyperlinks that can be used in social media profiles. 🔗🌲😂",
   "author": "Chris Reynolds <me@chrisreynolds.io>",
   "license": "GPL-3.0-or-later",
-  "type": "commonjs",
   "main": "index.js",
   "homepage": "",
   "repository": {
