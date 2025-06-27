@@ -25,9 +25,57 @@ const links = [
 		prefix: "fas"
 	},
 	{
+		name: "Bluesky",
+		url: "https://bsky.app/profile/jazzsequence.com",
+		icon: "bluesky",
+		prefix: "fab"
+	},
+	{
+		name: "GitHub",
+		url: "https://github.com/jazzsequence",
+		icon: "github",
+		prefix: "fab"
+	},	
+	{
 		name: "DMsGuild",
 		icon: "d-and-d",
 		url: "https://www.dmsguild.com/browse.php?author=Chris%20Reynolds",
+		prefix: "fab"
+	},
+	{
+		name: "Instagram",
+		url: "https://instagram.com/jazzs3quence",
+		icon: "instagram",
+		prefix: "fab"
+	},
+	{
+		name: "Spotify",
+		url: "https://open.spotify.com/user/jazzsequence?si=L089uKp5RWeKInyh6Mcl1A",
+		icon: "spotify",
+		prefix: "fab"
+	},
+	{
+		name: "The WP World",
+		url: "https://thewp.world/presser/chris-reynolds/",
+		icon: "map",
+		prefix: "fas"
+	},
+	{
+		name: "LinkedIn",
+		url: "https://www.linkedin.com/in/chrissreynolds/",
+		icon: "linkedin",
+		prefix: "fab"
+	},
+	{
+		name: "YouTube",
+		url: "https://www.youtube.com/c/ChrisReynolds_jazzsequence",
+		icon: "youtube",
+		prefix: "fab"
+	},
+	{
+		name: "WordPress.org",
+		url: "https://profiles.wordpress.org/jazzs3quence/",
+		icon: "wordpress",
 		prefix: "fab"
 	},
 	{
@@ -37,23 +85,11 @@ const links = [
 		prefix: "fas"
 	},
 	{
-		name: "Bluesky",
-		url: "https://bsky.app/profile/jazzsequence.com",
-		icon: "bluesky",
-		prefix: "fab"
-	},
-	{
 		name: "Mastodon",
 		url: "https://mstdn.social/@jazzsequence",
 		icon: "mastodon",
 		prefix: "fab",
 		rel: "me"
-	},
-	{
-		name: "Instagram",
-		url: "https://instagram.com/jazzs3quence",
-		icon: "instagram",
-		prefix: "fab"
 	},
 	{
 		name: "Tumblr",
@@ -92,27 +128,9 @@ const links = [
 		prefix: "fab"
 	},
 	{
-		name: "Spotify",
-		url: "https://open.spotify.com/user/jazzsequence?si=L089uKp5RWeKInyh6Mcl1A",
-		icon: "spotify",
-		prefix: "fab"
-	},
-	{
 		name: "Facebook",
 		url: "https://facebook.com/jazzsequence",
 		icon: "facebook",
-		prefix: "fab"
-	},
-	{
-		name: "YouTube",
-		url: "https://www.youtube.com/c/ChrisReynolds_jazzsequence",
-		icon: "youtube",
-		prefix: "fab"
-	},
-	{
-		name: "GitHub",
-		url: "https://github.com/jazzsequence",
-		icon: "github",
 		prefix: "fab"
 	},
 	{
