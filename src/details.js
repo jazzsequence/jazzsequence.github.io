@@ -144,6 +144,12 @@ const links = [
 		url: "https://www.brewfiles.com/brew/KLMTzN28kH3Ym4chgPvw/",
 		icon: "beer",
 		prefix: "fas"
+	},
+	{
+		name: "Contact",
+		url: "https://jazzsequence.com/about/#nf-form-title-1",
+		icon: "inbox",
+		prefix: "fas"
 	}
 ];
 
