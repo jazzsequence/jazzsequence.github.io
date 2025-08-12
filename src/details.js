@@ -25,6 +25,12 @@ const links = [
 		prefix: "fas"
 	},
 	{
+		name: "Community + Code",
+		icon: "podcast",
+		url: "https://communitycode.dev",
+		prefix: "fas"
+	},
+	{
 		name: "Bluesky",
 		url: "https://bsky.app/profile/jazzsequence.com",
 		icon: "bluesky",
@@ -145,7 +151,7 @@ const links = [
 const profile = {
 	name: "Chris Reynolds",
 	pronouns: "he/they", // Your pronouns.
-	bio: "Web Software Engineer, Dungeon Master, occasional musician, weekend DJ and writer.",
+	bio: "Senior Developer Advocate, web software engineer, Dungeon Master, occasional musician, weekend DJ and writer.",
 	image: "https://www.dropbox.com/s/0ux2c09lske2wmq/chris-hiking-square-2021-low-res.jpg?raw=1"
 };
 
